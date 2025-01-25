@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.products-container, .education-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product, .education {
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+.product img, .education img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.home-image img{
+    max-width: 25%;
+    height: 15;
+    float: right;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4cafaf;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#ch {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(48, 173, 77);
+    padding: 3px 13px;
+    border-radius: 3px;
+    margin-top: 12px;
+}
+
+#ch:checked ~ .content {
+    display: block;
+}
+
+#ch:checked ~ label {
+    display: none;
+}
+
+.content {
+    display: none;
+}
+
+
+#ch1 {
+    display: none;
+}
+#ch1:checked ~ .content1 {
+    display: block;
+}
+#ch1:checked ~ label {
+    display: none;
+}
+
+.content1 {
+    display: none;
+}
+
+#ch2 {
+    display: none;
+}
+#ch2:checked ~ .content2 {
+    display: block;
+}
+#ch2:checked ~ label {
+    display: none;
+}
+
+.content2 {
+    display: none;
+}
+
+#ch3 {
+    display: none;
+}
+#ch3:checked ~ .content3 {
+    display: block;
+}
+#ch3:checked ~ label {
+    display: none;
+}
+
+.content3 {
+    display: none;
+}
+
+#ch4 {
+    display: none;
+}
+#ch4:checked ~ .content4 {
+    display: block;
+}
+#ch4:checked ~ label {
+    display: none;
+}
+
+.content4 {
+    display: none;
+}
+
+
+#ch5 {
+    display: none;
+}
+#ch5:checked ~ .content5 {
+    display: block;
+}
+#ch5:checked ~ label {
+    display: none;
+}
+
+.content5 {
+    display: none;
+}
+
+
+#ch6 {
+    display: none;
+}
+#ch6:checked ~ .content6 {
+    display: block;
+}
+#ch6:checked ~ label {
+    display: none;
+}
+
+.content6 {
+    display: none;
+}
